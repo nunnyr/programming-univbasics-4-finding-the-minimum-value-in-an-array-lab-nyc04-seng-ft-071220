@@ -5,7 +5,7 @@ require 'pry'
   
 def find_min_value(array)
   count = 0
-  min = 0
+  min = 100
   
   while count < array.length 
         if array[count] > min
