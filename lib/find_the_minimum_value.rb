@@ -10,7 +10,7 @@ def find_min_value(array)
   while count < array.length 
         if array[count] < min
           min = array[count]
-          binding.pry
+          
       end
       count += 1 
       
