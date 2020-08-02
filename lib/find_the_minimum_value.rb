@@ -5,10 +5,10 @@ require 'pry'
   
 def find_min_value(array)
   count = 0
-  min = nil
+  min = 0
   
   while count < array.length 
-        if array[count] < min
+        if array[count] > min
           min = array[count]
           
       end
