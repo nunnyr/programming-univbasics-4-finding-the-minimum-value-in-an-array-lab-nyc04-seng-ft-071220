@@ -8,7 +8,7 @@ def find_min_value(array)
   min = 100
   
   while count < array.length 
-        if array[count] > min
+        if array[count] < min
           min = array[count]
           
           puts array
